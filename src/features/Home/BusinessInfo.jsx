@@ -22,7 +22,7 @@ const BusinessInfo = () => {
               <img
                 src="/vectors/disc.svg"
                 alt="disc"
-                className="w-4 h-4 object-contain"
+                className="w-4 h-4 object-contain text-white"
               />
               Convenient Money Sending
             </li>
@@ -31,7 +31,7 @@ const BusinessInfo = () => {
               <img
                 src="/vectors/disc.svg"
                 alt="disc"
-                className="w-4 h-4 object-contain"
+                className="w-4 h-4 object-contain text-white"
               />
               Effortless Money Receiving
             </li>
@@ -40,7 +40,8 @@ const BusinessInfo = () => {
               <img
                 src="/vectors/disc.svg"
                 alt="disc"
-                className="w-4 h-4 object-contain"
+                className="w-4 h-4 object-contain text-white"
+                color="white"
               />
               Smart Money Saving
             </li>

@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className=" text-white py-4">
       <div className="container mx-auto flex flex-row lg:flex-row items-center px-6 justify-between">
-        <h1 className="text-2xl font-bold text-white">Augusta</h1>
+        <h1 className="text-2xl font-bold text-white">OLTRAPAY</h1>
         <div className="flex flex-row justify-between gap-12">
           <ul className="hidden md:flex items-center space-x-12">
             <li className=" cursor-pointer">About Us</li>
