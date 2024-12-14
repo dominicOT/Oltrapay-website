@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../features/Home/Hero";
 import BusinessInfo from "../features/Home/BusinessInfo";
+import TradeInfo from "../features/Home/TradeInfo";
 
 const Home = () => {
   return (
@@ -21,9 +22,12 @@ const Home = () => {
           {/* Space between Hero and Business Info */}
         </div>
       </div>
-
-      <div className="mt-16">
+      <div className="w-full mt-24 bg-[radial-gradient(ellipse_at_center,_#62CCA3,_#48A4BE_70%)] overflow-hidden">
         <BusinessInfo />
+      </div>
+
+      <div className="bg-white w-full mt-0 h-auto max-h-[400px]">
+        <TradeInfo />
       </div>
     </>
   );
