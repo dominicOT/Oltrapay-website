@@ -7,6 +7,7 @@ import CallToAction from "../features/Home/CallToAction";
 import Testimony from "../features/Home/Testimony";
 import Stats from "../features/Home/Stats";
 import FAQ from "../features/Home/FAQ";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -46,6 +47,10 @@ const Home = () => {
 
       <div className="w-full mt-8">
         <FAQ />
+      </div>
+
+      <div className="bg-[#48A4BE]  w-full mt-8">
+        <Footer />
       </div>
     </>
   );

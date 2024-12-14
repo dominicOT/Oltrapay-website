@@ -1,3 +1,4 @@
+import { ChevronDown } from "lucide-react";
 import React from "react";
 
 const Navbar = () => {
@@ -10,7 +11,10 @@ const Navbar = () => {
             <li className=" cursor-pointer">About Us</li>
             <li className=" cursor-pointer">Services</li>
             <li className=" cursor-pointer">Contact Us</li>
-            <li className=" cursor-pointer">More</li>
+            <li className=" cursor-pointer flex flex-row gap-2 items-center">
+              <span>More</span>
+              <ChevronDown size={15} className="mt-1" />
+            </li>
           </ul>
         </div>
         <div className="flex flex-row justify-between">
