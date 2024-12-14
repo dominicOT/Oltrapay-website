@@ -11,7 +11,7 @@ const Home = () => {
       <div className="relative">
         {/* Background */}
         <div
-          className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-primary to-accent"
+          className="absolute bg-accent top-0 left-0 w-full h-full md:bg-gradient-to-b md:from-primary md:to-accent"
           style={{ clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 100%)" }}
         ></div>
 

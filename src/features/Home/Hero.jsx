@@ -2,21 +2,21 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className=" text-white py-8">
-      <div className="container w-full mx-auto px-6 lg:px-24 py-12 flex flex-row justify-between h-full">
+    <section className="text-white py-8">
+      <div className="container mx-auto px-6 lg:px-24 py-12 flex flex-col lg:flex-row justify-between items-center lg:items-start h-full space-y-8 lg:space-y-0">
         {/* Left Content */}
         <div className="lg:w-1/2 text-center lg:text-left">
-          <h1 className="text-4xl lg:text-6xl font-bold mb-6">
+          <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6">
             Simplify your payments with our secure online platform
           </h1>
-          <p className="text-lg mb-6">
+          <p className="text-base sm:text-lg mb-6">
             Company is the leading online payment service provider, offering a
             convenient and reliable way to send, receive, and save money using
             your phone. With our platform, you can easily manage bank
             transactions and pay for services like electricity bills and water
             bills from anywhere in the world.
           </p>
-          <div className="flex justify-center lg:justify-start space-x-3">
+          <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-3 sm:space-y-0 sm:space-x-3">
             {/* Apple Store Button */}
             <button className="bg-black hover:cursor-pointer text-white px-4 py-2 rounded-md flex flex-row gap-2 items-center text-left">
               <img
@@ -45,11 +45,11 @@ const Hero = () => {
           </div>
         </div>
         {/* Right Image */}
-        <div className="lg:w-1/2 mt-3 lg:mt-4 flex justify-center lg:justify-end">
+        <div className="lg:w-1/2 flex justify-center lg:justify-end">
           <img
             src="/vectors/heroImage.svg"
             alt="Payment Solutions"
-            className="w-full max-w-md lg:max-w-lg object-contain"
+            className="w-full max-w-xs sm:max-w-sm lg:max-w-lg object-contain"
           />
         </div>
       </div>
