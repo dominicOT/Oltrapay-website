@@ -5,6 +5,7 @@ import BusinessInfo from "../features/Home/BusinessInfo";
 import TradeInfo from "../features/Home/TradeInfo";
 import CallToAction from "../features/Home/CallToAction";
 import Testimony from "../features/Home/Testimony";
+import Stats from "../features/Home/Stats";
 
 const Home = () => {
   return (
@@ -36,6 +37,10 @@ const Home = () => {
 
       <div className="w-full mt-8">
         <Testimony />
+      </div>
+
+      <div className="bg-accent w-full mt-8">
+        <Stats />
       </div>
     </>
   );
