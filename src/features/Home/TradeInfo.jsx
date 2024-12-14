@@ -1,10 +1,11 @@
 import React from "react";
 import TradeCard from "./_components/TradeCard";
 import { ChevronRight } from "lucide-react";
+
 const TradeInfo = () => {
   return (
-    <section className="text-black py-8 w-full">
-      <div className="container w-full mx-auto px-6 lg:px-24 py-12">
+    <section className="text-black py-8 w-full mb-10 flex flex-col">
+      <div className="container w-full mx-auto px-6 lg:px-24 py-12 flex flex-col justify-between h-full">
         {/* Text Details */}
         <div className="w-full mb-8">
           <span className="text-lg font-medium">Simplify</span>
@@ -20,8 +21,8 @@ const TradeInfo = () => {
           </p>
         </div>
 
-        {/* Trade Card */}
-        <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-8">
+        {/* Trade Card Grid */}
+        <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-8 mb-6">
           <TradeCard
             title="Bank Transaction Made Simple"
             description="Easily manage your finances with our seamless bank transaction feature."
@@ -37,11 +38,11 @@ const TradeInfo = () => {
         </div>
 
         {/* Actions */}
-        <div className="w-full flex gap-4 items-center ">
+        <div className="w-full flex gap-4 items-center mt-auto">
           <button className="text-black px-8 py-2 border border-1 border-black">
             Learn More
           </button>
-          <button className="px-8 py-2  text-black flex gap-2 items-center">
+          <button className="px-8 py-2 text-black flex gap-2 items-center">
             <span>Sign Up</span>
             <ChevronRight size={20} />
           </button>

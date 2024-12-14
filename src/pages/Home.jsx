@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../features/Home/Hero";
 import BusinessInfo from "../features/Home/BusinessInfo";
 import TradeInfo from "../features/Home/TradeInfo";
+import CallToAction from "../features/Home/CallToAction";
 
 const Home = () => {
   return (
@@ -18,16 +19,18 @@ const Home = () => {
         <div className="relative z-10">
           <Navbar />
           <Hero />
-
-          {/* Space between Hero and Business Info */}
         </div>
       </div>
       <div className="w-full mt-24 bg-[radial-gradient(ellipse_at_center,_#62CCA3,_#48A4BE_70%)] overflow-hidden">
         <BusinessInfo />
       </div>
 
-      <div className="bg-white w-full mt-0 h-auto max-h-[400px]">
+      <div className="bg-white w-full mt-24">
         <TradeInfo />
+      </div>
+
+      <div className="bg-accent w-full mt-24">
+        <CallToAction />
       </div>
     </>
   );

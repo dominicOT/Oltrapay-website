@@ -3,7 +3,7 @@ import React from "react";
 
 const TradeCard = ({ title, description }) => {
   return (
-    <div className="w-full   flex flex-col items-start justify-between  h-[300px]">
+    <div className="w-full   flex flex-col items-start justify-between h-[200px]">
       <div className="flex flex-col justify-between h-full">
         <div className="flex items-center mb-4">
           <ChevronRightCircleIcon />
