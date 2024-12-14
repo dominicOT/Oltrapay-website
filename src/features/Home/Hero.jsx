@@ -47,7 +47,7 @@ const Hero = () => {
         {/* Right Image */}
         <div className="lg:w-1/2 mt-3 lg:mt-4 flex justify-center lg:justify-end">
           <img
-            src="/vectors/heroImage.svg" // Replace with your actual image path
+            src="/vectors/heroImage.svg"
             alt="Payment Solutions"
             className="w-full max-w-md lg:max-w-lg object-contain"
           />
