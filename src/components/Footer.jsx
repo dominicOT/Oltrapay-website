@@ -48,7 +48,7 @@ const Footer = () => {
           ))}
 
           {/* Subscribe */}
-          <div className="flex flex-col items-center sm:items-start">
+          <div className="flex flex-col items-center">
             <h3 className="text-xl font-bold mb-4">Subscribe</h3>
             <p className="text-sm mb-4 text-center sm:text-left">
               Stay informed with our updates and features
