@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <section className="text-white py-8">
-      <div className="container mx-auto px-6 lg:px-24 py-12 flex flex-col lg:flex-row justify-between items-center lg:items-start h-full space-y-8 lg:space-y-0">
+      <div className="container mx-auto px-6 lg:px-24 py-12 flex flex-col-reverse lg:flex-row justify-between items-center lg:items-start h-full space-y-8 lg:space-y-0">
         {/* Left Content */}
         <div className="lg:w-1/2 text-center lg:text-left">
           <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6">

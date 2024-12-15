@@ -11,10 +11,14 @@ const Navbar = () => {
   return (
     <nav className="text-white py-4">
       <div className="container mx-auto flex flex-row lg:flex-row items-center px-6 justify-between">
-        <h1 className="text-2xl font-bold text-white">OLTRAPAY</h1>
+        <a className="text-2xl font-bold text-white" href="/">
+          OLTRAPAY
+        </a>
         <div className="hidden md:flex flex-row justify-between gap-12">
           <ul className="flex items-center space-x-12">
-            <li className="cursor-pointer">About Us</li>
+            <li className="cursor-pointer">
+              <a href="/about">About Us</a>
+            </li>
             <li className="cursor-pointer">Services</li>
             <li className="cursor-pointer">Contact Us</li>
             <li className="cursor-pointer flex flex-row gap-2 items-center">
@@ -48,7 +52,9 @@ const Navbar = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-accent text-white px-6 py-4">
           <ul className="space-y-4">
-            <li className="cursor-pointer">About Us</li>
+            <li className="cursor-pointer">
+              <a href="/about">About Us</a>
+            </li>{" "}
             <li className="cursor-pointer">Services</li>
             <li className="cursor-pointer">Contact Us</li>
             <li className="cursor-pointer flex flex-row gap-2 items-center">
