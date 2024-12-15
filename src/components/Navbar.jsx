@@ -20,7 +20,9 @@ const Navbar = () => {
               <a href="/about">About Us</a>
             </li>
             <li className="cursor-pointer">Services</li>
-            <li className="cursor-pointer">Contact Us</li>
+            <li className="cursor-pointer">
+              <a href="/contact">Contact Us</a>
+            </li>
             <li className="cursor-pointer flex flex-row gap-2 items-center">
               <span>More</span>
               <ChevronDown size={15} className="mt-1" />
@@ -56,7 +58,9 @@ const Navbar = () => {
               <a href="/about">About Us</a>
             </li>{" "}
             <li className="cursor-pointer">Services</li>
-            <li className="cursor-pointer">Contact Us</li>
+            <li className="cursor-pointer">
+              <a href="/contact">Contact Us</a>
+            </li>{" "}
             <li className="cursor-pointer flex flex-row gap-2 items-center">
               <span>More</span>
               <ChevronDown size={15} className="mt-1" />
