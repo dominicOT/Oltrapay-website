@@ -1,5 +1,6 @@
 import { ChevronDown } from "lucide-react";
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -7,6 +8,8 @@ const Navbar = () => {
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen((prevState) => !prevState);
   };
+
+  const navigate = useNavigate();
 
   return (
     <nav className="text-white py-4">
@@ -37,7 +40,9 @@ const Navbar = () => {
               </button>
             </li>
             <li>
-              <button className="text-white bg-black px-4 py-1">Login</button>
+              <a className="text-white bg-black px-4 py-1" href="/sign-in">
+                Login
+              </a>
             </li>
           </ul>
         </div>
@@ -71,9 +76,12 @@ const Navbar = () => {
               </button>
             </li>
             <li>
-              <button className="text-white bg-black px-4 py-1 w-full">
+              <a
+                className="bg-white hover:cursor-pointer text-black px-4 py-1 text-sm w-full"
+                href="/sign-in"
+              >
                 Login
-              </button>
+              </a>
             </li>
           </ul>
         </div>
