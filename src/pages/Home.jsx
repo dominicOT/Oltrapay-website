@@ -15,8 +15,12 @@ const Home = () => {
       <div className="relative">
         {/* Background */}
         <div
-          className="absolute bg-accent top-0 left-0 w-full h-full md:bg-gradient-to-b md:from-primary md:to-accent"
-          style={{ clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 100%)" }}
+          className="absolute bg-accent top-0 left-0 w-full h-full md:bg-gradient-to-b md:from-primary md:to-accent md:clip-medium-polygon"
+          style={
+            {
+              // clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 100%)", // Applies only on medium and larger screens
+            }
+          }
         ></div>
 
         {/* Content */}
@@ -29,7 +33,7 @@ const Home = () => {
         <BusinessInfo />
       </div>
 
-      <div className="bg-white w-full mt-24">
+      <div className="bg-white w-full mt-4">
         <TradeInfo />
       </div>
 

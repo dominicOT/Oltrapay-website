@@ -4,8 +4,8 @@ import { ChevronRight } from "lucide-react";
 
 const TradeInfo = () => {
   return (
-    <section className="text-black py-8 w-full mb-10 flex flex-col">
-      <div className="container w-full mx-auto px-6 lg:px-24 py-12 flex flex-col justify-between h-full">
+    <section className="text-black w-full mb-10 flex flex-col">
+      <div className="container w-full mx-auto px-6 lg:px-24 py-8 flex flex-col justify-between h-full">
         {/* Text Details */}
         <div className="w-full mb-8">
           <span className="text-lg font-medium">Simplify</span>
@@ -22,7 +22,7 @@ const TradeInfo = () => {
         </div>
 
         {/* Trade Card Grid */}
-        <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-8 mb-6">
+        <div className="w-full flex flex-col items-center justify-between gap-1 md:flex-row shadow-sm mb-4 ">
           <TradeCard
             title="Bank Transaction Made Simple"
             description="Easily manage your finances with our seamless bank transaction feature."

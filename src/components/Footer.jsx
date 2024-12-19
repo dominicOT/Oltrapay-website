@@ -22,14 +22,14 @@ const Footer = () => {
         <div className="flex flex-col lg:flex-row justify-between">
           {/* Augusta */}
           <div className="flex justify-left sm:justify-start">
-            <h3 className="text-xl font-bold mb-4">Augusta</h3>
+            <h3 className="text-xl font-bold mb-4 px-2">OLTRAPAY</h3>
           </div>
 
           {/* Dynamic Links */}
           {footerLinks.map((section) => (
             <div
               key={section.title}
-              className="flex flex-col items-center sm:items-start"
+              className="flex flex-col items-start sm:items-start px-4"
             >
               <h3 className="text-xl font-bold mb-4">{section.title}</h3>
               <ul className="space-y-2">
@@ -53,7 +53,7 @@ const Footer = () => {
             <p className="text-sm mb-4 text-center sm:text-left">
               Stay informed with our updates and features
             </p>
-            <form className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full sm:max-w-lg mx-auto">
+            <form className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full sm:max-w-lg  px-4">
               <input
                 type="email"
                 placeholder="Enter email address"

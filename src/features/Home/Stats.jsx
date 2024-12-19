@@ -2,8 +2,8 @@ import React from "react";
 
 const Stats = () => {
   return (
-    <section className="text-white py-8">
-      <div className="container mx-auto flex flex-col-reverse lg:flex-row px-6 lg:px-24 py-12 justify-center gap-12">
+    <section className="text-white">
+      <div className="container mx-auto flex flex-col-reverse lg:flex-row px-6 lg:px-24  justify-center items-center gap-12">
         {/* Left section content */}
         <div className="flex flex-col gap-6 lg:w-1/2">
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">

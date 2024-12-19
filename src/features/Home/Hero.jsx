@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-3 sm:space-y-0 sm:space-x-3">
             {/* Apple Store Button */}
-            <button className="bg-black hover:cursor-pointer text-white px-4 py-2 rounded-md flex flex-row gap-2 items-center text-left">
+            <button className="bg-primary hover:cursor-pointer text-white px-4 py-2 rounded-md flex flex-row gap-2 items-center text-left">
               <img
                 src="/vectors/apple.svg"
                 alt="Apple Icon"
@@ -31,7 +31,7 @@ const Hero = () => {
             </button>
 
             {/* Play Store Button */}
-            <button className="bg-black hover:cursor-pointer text-white px-4 py-2 rounded-md flex flex-row gap-2 items-center text-left">
+            <button className="bg-primary hover:cursor-pointer text-white px-4 py-2 rounded-md flex flex-row gap-2 items-center text-left">
               <img
                 src="/vectors/playStore.svg"
                 alt="Play Store Icon"
