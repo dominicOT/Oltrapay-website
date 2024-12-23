@@ -22,8 +22,8 @@ const Testimony = () => {
             made sending and receiving money so convenient and hassle-free."
           </p>
           <div className="text-gray-800 font-semibold">
-            <h3 className="text-lg">John Doe</h3>
-            <p className="text-sm text-gray-500">CEO, Company</p>
+            <h3 className="text-lg">Alvin Dore</h3>
+            <p className="text-sm text-gray-500">Software Engineer, ImoTech</p>
           </div>
         </div>
       </div>

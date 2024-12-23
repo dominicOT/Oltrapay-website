@@ -31,10 +31,10 @@ const CallToAction = () => {
 
           {/* Actions */}
           <div className="mt-6 flex sm:flex-row gap-4 sm:gap-8 items-center justify-center lg:justify-start">
-            <button className="bg-white text-black px-6 py-2 border-2 border-black hover:bg-gray-100">
+            <button className="bg-white text-black px-6 py-2 border-2 rounded-md hover:bg-gray-100">
               Sign Up
             </button>
-            <button className="bg-black text-white px-6 py-2 border-2 border-black hover:bg-gray-800">
+            <button className="bg-black text-white px-6 py-2 border-2 rounded-md hover:bg-gray-800">
               Learn More
             </button>
           </div>

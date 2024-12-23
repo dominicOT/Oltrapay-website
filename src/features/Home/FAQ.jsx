@@ -71,7 +71,7 @@ const FAQ = () => {
           <h1 className="text-3xl font-bold">Still have questions?</h1>
           <p>Contact our support team for further assistance.</p>
 
-          <button className="px-6 py-1 border-2 border-black mt-4">
+          <button className="px-6 py-2 border-2 rounded-md mt-4">
             Contact
           </button>
         </div>

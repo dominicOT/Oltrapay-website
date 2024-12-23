@@ -71,13 +71,13 @@ const Navbar = () => {
               <ChevronDown size={15} className="mt-1" />
             </li>
             <li>
-              <button className="bg-white hover:cursor-pointer text-black px-4 py-1 text-sm w-full">
+              <button className="bg-white hover:cursor-pointer text-black px-4 py-2 rounded-md text-sm w-full">
                 Sign Up
               </button>
             </li>
             <li>
               <a
-                className="bg-white hover:cursor-pointer text-black px-4 py-1 text-sm w-full"
+                className="bg-white hover:cursor-pointer text-black px-4 py-2 rounded-md text-sm w-full"
                 href="/sign-in"
               >
                 Login
